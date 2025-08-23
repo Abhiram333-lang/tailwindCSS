@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-cyan-400 italic">
+    <h2 class="text-red-400 m-4 capitalize underline">1.example for width</h2>
+    <h6 class="text-blue-900 m-4">w-full</h6>
+    <div class="bg-blue-950 text-white w-full m-4 p-4 rounded-xl">it takes full width of parent</div>
+    <h6 class="text-blue-900 m-4">w-1/2</h6>
+    <div class="bg-blue-950 text-white w-1/2 m-4 p-4 rounded-xl">it takes half width of parent</div>
+    <h6 class="text-blue-900 m-4">w-25</h6>
+    <div class="bg-blue-950 text-white w-24 m-4 p-4 rounded">it takes quator width of parent </div>
+
+    <h2 class="text-red-400 m-4 capitalize underline">2.example for height</h2>
+    <div class="bg-purple-600 h-10 m-4 p-2 text-white rounded-2xl">we get fixed height of 2.5rem</div>
+    <div class="bg-purple-950 h-screen p-4 m-4 text-white rounded">it will take full height of the screen</div>
+    
+    <h2 class="text-red-400 m-4 capitalize underline">3.example max width</h2>
+    <div class="bg-blue-700 max-w-xs m-4 p-4 text-white rounded-2xl">It will take max width upto 320px</div>
+    <div class="bg-purple-400 max-w-screen-lg mx-auto m-4 p-4 rounded-full">It have a max width of 1024px</div>
+
+    <h2 class="text-red-400 m-4 capitalize underline">4.example min width/height</h2>
+    <div class="flex w-64 border m-4">
+        <div class="min-w-0 bg-pink-400 p-4 m-4 truncate rounded-full">this text will be truncate insted of overflow</div>
+
+    </div>
+</body>
+</html>

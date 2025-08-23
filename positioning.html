@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-blue-200">
+    <div class="relative h-36 bg-gray-500 ">
+        <div class="absolute top-0 left-1/2 bg-blue-500 text-white px-4 py-1 capitalize italic">center top</div>
+    </div>
+
+
+    <div class="relative h-20">
+        <div class="absolute left-4 top-4 bg-red-400 p-2 z-10">z-index-10</div>
+        <div class="absolute left-12 top-12 bg-purple-400 p-2 z-50">z-index-50</div>
+
+    </div>
+
+    <h4 class="m-4 text-red-700 underline">responsive</h4>
+    <p class="text-base md:text-xl lg:text-3xl">this text is normal on small screen,xl on medium,3xl for large</p>
+
+    <h4 class="m-4 text-red-700 underline">state variants</h4>
+    <button class="bg-blue-300 hover:bg-blue-900 focus:outline-none active:scale-95 text-white px-4 py-2 rounded">interactive button</button>
+
+    <h4 class="m-4 text-red-700 underline">curser utilities</h4>
+    <button class="cursor-pointer bg-green-500 text-white px-3 py-1rounded">clickable</button>
+    <button class="cursor-not-allowed bg-green-500 text-white px-3 py-1rounded">disable</button>
+
+
+    <h4 class="m-4 text-red-700 underline">shadow utilities</h4>
+    <div class="shadow mx-4">normal shadow</div>
+    <div class="shadow-lg mx-4"> shadow</div>
+
+    <h4 class="m-4 text-red-700 underline">opacity</h4>
+    <div class="opacity-25">this is n example for opacity-25</div>
+    <div class="opacity-50">this is n example for opacity-25</div>
+    <div class="opacity-75">this is n example for opacity-25</div>
+    <div class="opacity-100">this is n example for opacity-25</div>
+
+    <h4 class="m-4 text-red-700 underline">rounded corners</h4>
+    <img src="art1.jpg" alt="" width="200px" class="rounded">
+    <img src="art1.jpg" alt="" width="200px" class="rounded-2xl">
+    <img src="art1.jpg" alt="" width="200px" class="rounded-full">
+
+
+
+    
+</body>
+</html>
